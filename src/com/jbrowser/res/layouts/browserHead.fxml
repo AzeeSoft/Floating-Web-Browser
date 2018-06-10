@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.embed.swing.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" maxWidth="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: transparent;" stylesheets="@../css/head.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jbrowser.java.controllers.BrowserHeadController">
+   <children>
+      <Button fx:id="head" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: transparent;" styleClass="head" stylesheets="@../css/head.css">
+         <contextMenu>
+            <ContextMenu fx:id="options">
+              <items>
+                <MenuItem onAction="#closeApp" text="Close" />
+              </items>
+            </ContextMenu>
+         </contextMenu></Button>
+   </children>
+</AnchorPane>

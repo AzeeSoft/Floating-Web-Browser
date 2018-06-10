@@ -1,0 +1,31 @@
+.back{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../imgs/back-icon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 30 30;
+    -fx-background-position: center center;
+}
+
+.forward{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../imgs/forward-icon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 30 30;
+    -fx-background-position: center center;
+}
+
+.reload{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../imgs/reload-icon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 30 30;
+    -fx-background-position: center center;
+}
+
+.go{
+    -fx-background-color: transparent;
+    -fx-background-image: url("../imgs/go-icon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 30 26;
+    -fx-background-position: center center;
+}
